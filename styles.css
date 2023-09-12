@@ -1,0 +1,72 @@
+/* Adicione um estilo básico de reset para remover as margens e preenchimentos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Defina um estilo de fundo e cor de texto padrão para o corpo da página */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Estilize a tabela para torná-la centralizada */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+/* Defina o estilo das células da tabela */
+td {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 24px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Adicione cores de fundo para os jogadores X e O */
+td.X {
+  background-color: #ffffff;
+  color: rgb(204, 0, 0); /* Defina a cor do texto para branco */
+}
+
+td.O {
+  background-color: #ffffff;
+  color: rgb(20, 0, 201); /* Defina a cor do texto para branco */
+}
+
+/* Estilize os botões */
+button {
+  margin: 10px;
+  padding: 10px 20px; /* Adicione um preenchimento para tornar os botões mais agradáveis */
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Altere o estilo do aviso */
+#aviso {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6347;
+  margin-top: 10px;
+}
+
+/* Estilize o link da nota */
+#nota {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+}
+
+/* Faça o link da nota parecer um link */
+#nota a {
+  text-decoration: underline;
+  color: #1e90ff;
+}
